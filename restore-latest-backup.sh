@@ -2,8 +2,8 @@
 
 set -xe
 
-SAVE_DIRECTORY="/home/egidio/.local/share/Steam/steamapps/compatdata/1086940/pfx/drive_c/users/steamuser/AppData/Local/Larian Studios/Baldur's Gate 3/PlayerProfiles/Public/Savegames/Story/e0cad730-4a6b-2993-c61c-f2a680a79f76__HonourMode"
-BACKUP_DIRECTORY="/home/egidio/Documents/Baldur's Gate 3 Save Backups"
+SAVE_DIRECTORY="/home/egidio/.var/app/com.valvesoftware.Steam/.local/share/Larian Studios/Baldur's Gate 3/PlayerProfiles/Public/Savegames/Story/e0cad730-4a6b-2993-c61c-f2a680a79f76__HonourMode"
+BACKUP_DIRECTORY="/home/egidio/Documents/Baldur's Gate 3"
 
 LAST_BACKUP=""
 for BACKUP in "${BACKUP_DIRECTORY}"/*/; do
